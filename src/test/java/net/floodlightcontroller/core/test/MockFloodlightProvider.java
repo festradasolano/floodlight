@@ -347,4 +347,20 @@ public class MockFloodlightProvider implements IFloodlightModule, IFloodlightPro
         // TODO Auto-generated method stub
         
     }
+    
+	/* festradasolano added this code: */
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see
+	 * net.floodlightcontroller.core.IFloodlightProviderService#getOpenFlowPort
+	 * ()
+	 */
+	@Override
+	public int getOpenFlowPort() {
+		// TODO 2013-10-17 festradasolano: implement test
+		return 0;
+	}
+	/* end of festradasolano's code */
+
 }

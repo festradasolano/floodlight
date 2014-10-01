@@ -206,5 +206,16 @@ public interface IFloodlightProviderService extends IFloodlightService {
     * switch over to ACTIVE role
     */
    public void setAlwaysClearFlowsOnSwAdd(boolean value);
+   
+   /* festradasolano added this code: */
+   /**
+	 * Returns the floodlight listen port for switch connections.
+	 * 
+	 * @return the listen port for switch connections
+	 * 
+	 * @author festradasolano
+	 */
+	public int getOpenFlowPort();
+   /* end of festradasolano's code */
 
 }
