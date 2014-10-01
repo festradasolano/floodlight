@@ -1,3 +1,26 @@
+Floodlight Add-ons
+==================
+
+Floodligth Add-ons are written by a number of authors who retain their various
+copyrights. Please check individual source files to find their associated
+copyright holders. The following should be a list of all copyright holders. All
+such code is licensed under the Apache License, Version 2.0.
+
+Copyright 2012-2014 Felipe Estrada-Solano <festradasolano at gmail>
+
+Floodlight Add-ons includes code from Floodlight, which is licensed under the
+Apache License, Version 2.0.
+
+Floodlight
+==========
+
+Floodlight was originally written by David Erickson at Stanford University.
+The following should be a list of all copyright holders. All such code is 
+licensed under the Apache License, Version 2.0.
+
+Copyright 2011 Big Switch Networks, Inc.
+Originally created by David Erickson, Stanford University
+
 INDEMNITY AND DISCLAIMER OF WARRANTIES
 
 SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING,
