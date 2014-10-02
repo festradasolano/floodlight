@@ -1,4 +1,4 @@
-/*
+/**
  * Copyright 2013 Felipe Estrada-Solano <festradasolano at gmail>
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -25,7 +25,7 @@ import org.restlet.resource.ServerResource;
 import net.floodlightcontroller.core.IFloodlightProviderService;
 
 /**
- * Retrieves floodlight general information: listen address and listen port for
+ * Retrieves FloodLight general information: listen address and listen port for
  * switch connections.
  * 
  * Copyright 2013 Felipe Estrada-Solano <festradasolano at gmail>

@@ -1,15 +1,19 @@
-Floodlight Add-ons
-==================
+Floodlight Mashment
+===================
 
-Floodligth Add-ons are written by a number of authors who retain their various
+Floodlight Mashment is written by a number of authors who retain their various
 copyrights. Please check individual source files to find their associated
 copyright holders. The following should be a list of all copyright holders. All
 such code is licensed under the Apache License, Version 2.0.
 
 Copyright 2012-2014 Felipe Estrada-Solano <festradasolano at gmail>
 
-Floodlight Add-ons includes code from Floodlight, which is licensed under the
+Floodlight Mashment includes code from Floodlight, which is licensed under the
 Apache License, Version 2.0.
+
+The generated JAR file of Floodlight Mashment includes code from open third
+party libraries, which are listed as dependencies in the Maven POM file. Please
+check license details from individual libraries to find their associated copyright.
 
 Floodlight
 ==========
@@ -20,6 +24,10 @@ licensed under the Apache License, Version 2.0.
 
 Copyright 2011 Big Switch Networks, Inc.
 Originally created by David Erickson, Stanford University
+
+Some Floodlight source files experimented few modifications to meet some
+FloodLight Mashment requirements. Those modifications are caused in each
+individual source file. Modified source files keep its original copyright.
 
 INDEMNITY AND DISCLAIMER OF WARRANTIES
 

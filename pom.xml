@@ -18,14 +18,14 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.projectfloodlight</groupId>
-	<artifactId>floodlight</artifactId>
-	<version>0.90.1-SNAPSHOT</version>
+	<groupId>net.mashment</groupId>
+	<artifactId>floodlight-mashment</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Floodlight Controller</name>
-	<description>High-performance enterprise-grade OpenFlow controller</description>
-	<url>http://www.projectfloodlight.org</url>
+	<name>Floodlight Mashment</name>
+	<description>The Floodlight Controller for Mashment</description>
+	<url>https://github.com/festradasolano/floodlight</url>
 
 	<licenses>
 		<license>
@@ -35,9 +35,49 @@
 			<comments>See LICENSE and NOTICE for details</comments>
 		</license>
 	</licenses>
+	
+	<organization>
+		<name>University of Cauca</name>
+		<url>http://www.unicauca.edu.co</url>
+	</organization>
+	
+	<developers>
+		<developer>
+			<id>festradasolano</id>
+			<name>Felipe Estrada-Solano</name>
+			<email>festradasolano@unicauca.edu.co</email>
+			<url>http://co.linkedin.com/in/festradasolano/</url>
+			<organization>University of Cauca</organization>
+			<organizationUrl>http://www.unicauca.edu.co</organizationUrl>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>America/Bogota</timezone>
+			<properties>
+				<gtalk>festradasolano@gmail.com</gtalk>
+				<twitter>https://twitter.com/festradasolano</twitter>
+			</properties>
+		</developer>
+	</developers>
+	
+	<contributors>
+		<contributor>
+			<name>Oscar Mauricio Caicedo</name>
+			<email>omcrendon@inf.ufrgs.br</email>
+			<url>http://www.unicauca.edu.co/~omcaicedo</url>
+			<organization>Federal University of Rio Grande do Sul</organization>
+			<organizationUrl>http://www.ufrgs.br</organizationUrl>
+			<roles>
+				<role>tester</role>
+			</roles>
+			<timezone>America/Sao_Paulo</timezone>
+			<properties>
+				<gtalk>omcaicedo@gmail.com</gtalk>
+			</properties>
+		</contributor>
+	</contributors>
 
 	<build>
-		<finalName>floodight</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -53,7 +93,6 @@
 				<artifactId>maven-jar-plugin</artifactId>
 				<version>2.5</version>
 				<configuration>
-					<finalName>floodlight</finalName>
 					<archive>
 						<manifest>
 							<mainClass>net.floodlightcontroller.core.Main</mainClass>
